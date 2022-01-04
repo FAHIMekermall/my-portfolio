@@ -1,0 +1,55 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: top;
+    margin: 0;
+}
+
+.flexible1{
+    display: flex;
+    padding: 15px;
+    margin: 25px 15px 15px 15px ;
+}
+
+.color-green{
+    color: green;
+}
+
+.color-best{
+    color: rgba(30, 62, 206, 0.747);
+}
+
+.half-width{
+    width: 50%;
+    padding: 25px;
+    margin: 50px;
+}
+
+.half-width img{
+    width: 100%;
+}
+
+.color-red{
+    color: red;
+    font-weight: 700;
+}
+
+.text111{
+    padding: 3%;
+    border:2px dotted rgba(165, 161, 161, 0.589);
+    border-radius: 2%;
+    box-shadow: 5px 5px 10px gray;
+    font-size: xx-large;
+}
+.text112{
+    padding: 3%;
+    border-image: linear-gradient(rgb(0, 255, 0), rgb(255, 0, 0));
+    border-image-slice: 1;
+    border-left: 10px solid;
+    box-shadow: 5px 5px 10px gray;
+    font-size: xx-large;
+}
+
